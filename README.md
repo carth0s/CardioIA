@@ -9,14 +9,18 @@
 # CardioIA
 
 ## 👨‍🎓 Integrantes: 
-- <a>Nome do integrante 1</a>
-- Nome do integrante 2 
+
+- Carlos Daniel Silveira do Nascimento - RM88439
+- Henrique Ribeiro Siqueira - RM565044
+- Mauricio Jose Ferlin Tonnera - RM565469
+- Rodrigo Portugal Santos - RM564773
+
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- Caique Nonato da Silva Bezerra
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- André Godoi Chiovato
 
 
 ## 📜 Descrição
