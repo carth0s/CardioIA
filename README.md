@@ -25,7 +25,16 @@
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+Nesta primeira etapa do projeto CardioIA, estabelecemos a base de dados necessária para a construção de um ecossistema inteligente de saúde cardiovascular. Os dados foram selecionados com foco na interoperabilidade e estão divididos em três pilares fundamentais:
+
+### Parte 1 - Dados Numéricos (IoT)
+Os dados utilizados no projeto são *reais* e provenientes de registros clínicos anonimizados, respeitando os princípios de Governança de Dados e privacidade. As variáveis mais relevantes incluem pressão arterial (sistólica e diastólica), IMC, idade e histórico de tabagismo, pois são biomarcadores críticos para o desenvolvimento de hipertensão e doenças coronarianas. No ecossistema do CardioIA, esses dados simulam informações coletadas via dispositivos IoT (como smartwatches e tensiômetros digitais), sendo fundamentais para treinar modelos de Machine Learning capazes de realizar a predição de risco cardíaco e apoiar o monitoramento clínico preventivo.
+
+### Parte 2 – Dados Textuais (NLP)
+Utilizamos textos técnicos e diretrizes oficiais da OPAS, SUS e IPEMED que abordam patologias cardiovasculares e protocolos de tratamento. Estes dados permitem que algoritmos de Processamento de Linguagem Natural (NLP) realizem a extração de entidades (sintomas e diagnósticos) e a classificação de tópicos em prontuários médicos. A análise desses textos é crucial para correlacionar a literatura científica com os sintomas relatados pelos pacientes, permitindo que a IA compreenda o contexto clínico além dos números, auxiliando na triagem e na tomada de decisão médica.
+
+### Parte 3 – Dados Visuais (VC)
+Para o pilar de Visão Computacional, selecionamos 100 imagens de exames de eletrocardiograma (ECG) (extraídas da plataforma Kaggle), distribuídas entre batimentos normais (N) e diferentes tipos de arritmias (V, S, F). Estas imagens permitem que redes neurais identifiquem padrões morfológicos na atividade elétrica do coração. A análise automatizada desses sinais é vital para o diagnóstico de precisão, permitindo que a IA detecte anomalias (como contrações ventriculares prematuras) de forma instantânea, servindo como uma ferramenta de suporte rápido para cardiologistas em cenários de alta complexidade.
 
 
 ## 📁 Estrutura de pastas
