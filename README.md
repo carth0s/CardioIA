@@ -36,6 +36,8 @@ Utilizamos textos técnicos e diretrizes oficiais da OPAS, SUS e IPEMED que abor
 ### Parte 3 – Dados Visuais (VC)
 Para o pilar de Visão Computacional, selecionamos 100 imagens de exames de eletrocardiograma (ECG), (extraídas da plataforma Kaggle), distribuídas entre batimentos normais (N) e diferentes tipos de arritmias (V, S, F). Estas imagens permitem que redes neurais identifiquem padrões morfológicos na atividade elétrica do coração. A análise automatizada desses sinais é vital para o diagnóstico de precisão, permitindo que a IA detecte anomalias (como contrações ventriculares prematuras) de forma instantânea, servindo como uma ferramenta de suporte rápido para cardiologistas em cenários de alta complexidade.
 
+- Os arquivos refentes aos dados coletados podem ser acessados tanto na pasta assets quanto diratemente por este link: <a href="https://drive.google.com/drive/folders/1SQ8nB5iq25YXGnu0UCDY_LQu02pGcsuy"> Drive </a>
+
 
 ## 📁 Estrutura de pastas
 
