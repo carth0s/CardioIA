@@ -1,0 +1,63 @@
+CLASSIFICADOR BÁSICO DE RISCO CLÍNICO (SIMULAÇÃO)
+============================================================
+
+Total de exemplos na base: 48
+Treino: 36 | Teste: 12
+Acurácia no conjunto de teste: 0.7500
+Acurácia média em validação cruzada (5 folds): 0.8156 (desvio padrão: 0.0701)
+
+Matriz de confusão [linhas = real, colunas = previsto]
+Classes: [baixo risco, alto risco]
+[[5 1]
+ [2 4]]
+
+Relatório de classificação
+              precision    recall  f1-score   support
+
+  alto risco     0.8000    0.6667    0.7273         6
+ baixo risco     0.7143    0.8333    0.7692         6
+
+    accuracy                         0.7500        12
+   macro avg     0.7571    0.7500    0.7483        12
+weighted avg     0.7571    0.7500    0.7483        12
+
+Termos mais associados a ALTO RISCO
+- no peito: 0.3815
+- peito: 0.3815
+- dor no: 0.2605
+- frio: 0.2519
+- dor: 0.2432
+- tontura: 0.2060
+- agora: 0.2032
+- visao: 0.1964
+- nao: 0.1964
+- suor: 0.1885
+
+Termos mais associados a BAIXO RISCO
+- leve: 0.6780
+- causa: 0.3013
+- por causa: 0.3013
+- espirros: 0.2510
+- tosse: 0.2123
+- mal: 0.2096
+- desconforto: 0.2015
+- estar leve: 0.2010
+- apos: 0.1906
+- pouco: 0.1791
+
+Erros observados no conjunto de teste
+- Frase: notei fraqueza em um lado do corpo e fala enrolada
+  Real: alto risco | Previsto: baixo risco
+- Frase: estou com tosse e grande dificuldade para respirar desde ontem
+  Real: alto risco | Previsto: baixo risco
+- Frase: estou rouco e com irritação na garganta desde a manhã
+  Real: baixo risco | Previsto: alto risco
+
+Interpretação resumida:
+- O modelo tende a associar palavras como 'falta de ar', 'peito', 'desmaio', 'sudorese' e 'confusão' a ALTO RISCO.
+- Expressões como 'leve', 'incômodo', 'coriza', 'espirros', 'azia' e 'muscular' empurram a previsão para BAIXO RISCO.
+- Como a base é pequena e simulada, a acurácia pode parecer alta demais e não representa desempenho clínico real.
+- O modelo aprende muito por palavras-chave; frases ambíguas ou com negações podem ser classificadas de forma inadequada.
+
+Predições em frases de exemplo salvas em: predicoes_risco_exemplos.csv
+Observação importante: este projeto é apenas educacional e não deve ser usado em decisões reais de saúde.

@@ -1,0 +1,11 @@
+﻿frase,predicao,probabilidade_alto_risco
+Sinto dor no peito e suor frio quando caminho rápido.,alto risco,0.6369
+Estou com coriza e nariz entupido desde ontem.,baixo risco,0.4312
+Tive desmaio e falta de ar hoje de manhã.,alto risco,0.5739
+Tenho uma dor leve nas costas depois de trabalhar sentado.,baixo risco,0.394
+Estou com febre alta e dificuldade para respirar.,alto risco,0.5508
+Sinto azia depois das refeições.,baixo risco,0.4389
+Minha fala ficou enrolada e meu braço esquerdo ficou fraco.,alto risco,0.5738
+Estou com tosse leve e garganta irritada.,baixo risco,0.3784
+Tenho palpitações com tontura e quase desmaiei.,alto risco,0.5879
+Sinto uma fisgada no pescoço quando viro a cabeça.,baixo risco,0.4242
