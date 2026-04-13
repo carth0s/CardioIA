@@ -44,6 +44,8 @@ Para o pilar de Visão Computacional, selecionamos 100 imagens de exames de elet
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>assets</b>: aqui estão os arquivos relacionados ao projeto.
+- - <b>fase2</b>: arquivos da fase 2 do projeto, divididos entre parte 1 e parte 2
+  - <b>fase1</b>: arquivos da fase 1 do projeto
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
