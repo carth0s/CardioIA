@@ -39,7 +39,7 @@ Desenvolvemos um classificador binário para triagem clínica automatizada.
 - Objetivo: Priorizar atendimentos classificando relatos entre "Baixo Risco" e "Alto Risco", simulando um sistema real de triagem hospitalar.
 
 #### Demonstração
-Confira o funcionamento completo da solução e a explicação técnica no vídeo abaixo:
+Confira o funcionamento completo da solução e a explicação técnica no vídeo a seguir:
 <a href="https://www.youtube.com/watch?v=_O2c33BtW-s"> Vídeo demonstração </a>
 
 ### Fase 1 - Coleta de dados 
