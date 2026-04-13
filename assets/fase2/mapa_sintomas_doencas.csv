@@ -1,0 +1,34 @@
+﻿Sintoma 1,Sintoma 2,Doença Associada
+dor no peito,aperto no tórax,Infarto
+pressão no peito,suor frio,Infarto
+sudorese fria,dor no braço esquerdo,Infarto
+cansaço constante,fadiga,Insuficiência Cardíaca
+falta de ar,inchaço nas pernas,Insuficiência Cardíaca
+cansaço ao esforço,falta de ar ao deitar,Insuficiência Cardíaca
+aperto no peito,falta de ar,Angina
+dor no peito ao esforço,melhora com repouso,Angina
+desconforto no peito,dificuldade para respirar,Angina
+febre,dor no corpo,Gripe
+febre alta,tosse seca,Gripe
+calafrios,mal-estar,Gripe
+febre,tosse com catarro,Pneumonia
+dificuldade para respirar,dor ao respirar,Pneumonia
+cansaço intenso,chiado no peito,Pneumonia
+dor de cabeça forte,náusea,Enxaqueca
+sensibilidade à luz,dor pulsante,Enxaqueca
+enjoo,incômodo com luz,Enxaqueca
+queimação no estômago,azia,Gastrite
+dor abdominal após comer,enjoo,Gastrite
+estômago irritado,má digestão,Gastrite
+muita sede,urinar toda hora,Diabetes
+visão embaçada,fadiga,Diabetes
+perda de peso,muita fome,Diabetes
+febre,dor atrás dos olhos,Dengue
+dor nas articulações,manchas vermelhas,Dengue
+dor no corpo,fraqueza,Dengue
+tristeza intensa,desânimo,Depressão
+dificuldade para dormir,perda de interesse,Depressão
+cansaço emocional,falta de energia,Depressão
+palpitações,tremor,Crise de Ansiedade
+medo intenso,falta de ar repentina,Crise de Ansiedade
+preocupação excessiva,taquicardia,Crise de Ansiedade
