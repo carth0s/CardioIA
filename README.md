@@ -27,6 +27,15 @@
 
 Nesta segunda etapa do projeto CardioIA, avançamos para a implementação prática de inteligência artificial aplicada à triagem médica. O foco foi transformar relatos de pacientes em dados estruturados e decisões clínicas automatizadas.
 
+### Fase 3 - Monitoramento Contínuo – IoT na Saúde
+
+#### Parte 1 - Armazenamento e processamento local (Edge Computing):
+Desenvolvemos no Wokwi um sistema utilizando ESP32 para simular um sistema vestível de monitoramento cardíaco com conceitos de IoT e Edge Computing. O sistema realiza leituras periódicas de temperatura, umidade e frequência cardíaca simulada (BPM), processando os dados localmente no ESP32. A aplicação também simula conectividade Wi-Fi, armazenando dados localmente quando está offline e sincronizando automaticamente quando a conexão retorna. Além disso, o projeto possui alertas locais para frequências cardíacas acima de 120 BPM, utilizando LEDs para indicar o status do sistema e demonstrando conceitos de resiliência, processamento na borda e monitoramento contínuo aplicado à saúde.
+- <a href="https://wokwi.com/projects/463768895887172609"> Sistema no Wokwi </a>
+- <a href="https://drive.google.com/file/d/10EvPVWnYewac534_Wyfj1SbT1JAEgx4K/view?usp=drive_link"> Relatório do sistema </a>
+
+#### Parte 2 - Extração de Entidades e Diagnóstico
+
 ### Fase 2 - Diagnóstico Automatizado – IA no Estetoscópio Digital
 
 #### Parte 1 - Extração de Entidades e Diagnóstico
@@ -61,6 +70,7 @@ Para o pilar de Visão Computacional, selecionamos 100 imagens de exames de elet
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>assets</b>: aqui estão os arquivos relacionados ao projeto.
+  - <b>fase3</b>: arquivos da fase 3 do projeto
   - <b>fase2</b>: arquivos da fase 2 do projeto, divididos entre parte 1 e parte 2
   - <b>fase1</b>: arquivos da fase 1 do projeto
 
