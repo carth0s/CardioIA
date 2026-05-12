@@ -35,6 +35,9 @@ Desenvolvemos no Wokwi um sistema utilizando ESP32 para simular um sistema vest�
 - <a href="https://drive.google.com/file/d/10EvPVWnYewac534_Wyfj1SbT1JAEgx4K/view?usp=drive_link"> Relatório do sistema </a>
 
 #### Parte 2 - Extração de Entidades e Diagnóstico
+Nesta parte utilizamos o ESP32, MQTT e Node-RED para simular um sistema IoT de acompanhamento de sinais vitais em tempo real. O ESP32 realiza a leitura de temperatura, umidade e frequência cardíaca simulada, publicando os dados em um broker MQTT da HiveMQ. O Node-RED recebe essas informações e exibe os dados em um dashboard com gráficos, gauges e alertas cardíacos. O sistema demonstra conceitos de IoT, comunicação em nuvem, dashboards em tempo real e arquitetura distribuída aplicada ao monitoramento remoto de pacientes.
+- <a href="https://wokwi.com/projects/463773734323881985"> Sistema no Wokwi + MQTT</a>
+- <a href="https://drive.google.com/file/d/1MHZbenJRBlC_-Md4NJPz_rB2PXxxzwOu/view?usp=drive_link"> Relatório do sistema </a>
 
 ### Fase 2 - Diagnóstico Automatizado – IA no Estetoscópio Digital
 
