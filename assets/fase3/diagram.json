@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "author": "CardioIA",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -95.7, "left": -159, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 104.3, "left": -153.8, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "ledWifi",
+      "top": 104.4,
+      "left": 169.8,
+      "rotate": 90,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledOffline",
+      "top": 27.6,
+      "left": 169.8,
+      "rotate": 90,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledAlerta",
+      "top": 66,
+      "left": 169.8,
+      "rotate": 90,
+      "attrs": { "color": "red" }
+    }
+  ],
+  "connections": [
+    [ "dht1:VCC", "esp:3V3", "red", [ "v9.6", "h148.61" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "v28.8", "h96", "v96" ] ],
+    [ "dht1:SDA", "esp:4", "green", [ "v19.2", "h67.3", "v-48", "h192", "v153.6" ] ],
+    [ "pot1:VCC", "esp:3V3", "red", [ "v28.8", "h56.8", "v-172.8" ] ],
+    [ "pot1:GND", "esp:GND.2", "black", [ "v48", "h240", "v-192" ] ],
+    [ "pot1:SIG", "esp:34", "blue", [ "v38.4", "h76.4", "v-144" ] ],
+    [ "ledWifi:A", "esp:18", "green", [] ],
+    [ "ledWifi:C", "esp:GND.3", "black", [] ],
+    [ "ledOffline:A", "esp:19", "yellow", [] ],
+    [ "ledOffline:C", "esp:GND.3", "black", [] ],
+    [ "ledAlerta:A", "esp:21", "red", [] ],
+    [ "ledAlerta:C", "esp:GND.3", "black", [ "v0.4", "h-129.64" ] ],
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ]
+  ],
+  "dependencies": {}
+}
